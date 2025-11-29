@@ -1,0 +1,48 @@
+# Python cache / build artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.dist-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Git / VCS
+.git/
+.gitignore
+.hg/
+.hgignore
+.svn/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Sensitive / local config
+.env
+*.local
+*.secret
+
+# SQLite DB – will be mounted as a volume, not baked into the image
+db.sqlite3
+
+# Migration files – they are generated from the source code, not needed in the final image
+migrations
+
+# Miscellaneous
+.hypotheses
+
+uv.lock
